@@ -69,19 +69,20 @@ All results saved and visualized.
 
 ## Repository Structure
 
+```plaintext
 ghana-health-policy-rag-qa/
-├── ghana_rag_pipeline.ipynb # Full pipeline: chunking, generation, evaluation
+├── ghana_rag_pipeline.ipynb             # Full pipeline: chunking, generation, evaluation
 ├── data/
-│ ├── gold_qa.jsonl
-│ ├── baseline_qa_results.jsonl
-│ ├── rag_qa_results.jsonl
-│ ├── rag_chunks_word300.jsonl
-│ └── chunking_log_word300.csv
+│   ├── gold_qa.jsonl
+│   ├── baseline_qa_results.jsonl
+│   ├── rag_qa_results.jsonl
+│   ├── rag_chunks_word300.jsonl
+│   └── chunking_log_word300.csv
 ├── visuals/
-│ └── performance_vs_gold_chart.png
-| └── performance_vs_gold_chart.png
+│   └── performance_vs_gold_chart.png
 ├── requirements.txt
 └── README.md
+
 
 ---
 
@@ -118,3 +119,4 @@ ghana-health-policy-rag-qa/
 This repository is part of my independent research portfolio exploring retrieval-augmented QA for real-world documents. It focuses on factual accuracy and usability in health policy contexts, particularly in Ghana.
 
 For collaboration or feedback, feel free to get in touch.
+```
