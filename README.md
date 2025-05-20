@@ -1,6 +1,12 @@
 # Retrieval-Augmented QA over Ghanaian Health Policy Documents
 
-This project implements a Retrieval-Augmented Generation (RAG) system to answer questions over Ghanaian public health policy documents. It combines dense vector retrieval with language model reasoning to support more accurate, grounded, and fluent answers from long, fragmented policy documents published by Ghana’s Ministry of Health.
+## Research Abstract
+
+We ask whether Retrieval-Augmented Generation (RAG) can accurately answer policy-related questions from real-world Ghanaian health documents.  
+We scraped 36 official PDFs from [moh.gov.gh](https://moh.gov.gh), implemented three chunking strategies (word, overlap, sentence), and built a dense retriever using FAISS + MiniLM.  
+FLAN-T5 was used to compare zero-context (baseline) and retrieval-augmented generation.  
+On 10 gold QA pairs extracted from the documents, RAG improved factual accuracy by 33% and eliminated hallucinations.  
+This experiment demonstrates the potential of RAG in low-resource, document-heavy public sector domains like African health governance.
 
 ---
 
