@@ -120,10 +120,3 @@ ghana-health-policy-rag-qa/
 This repository is part of my independent research portfolio exploring retrieval-augmented QA for real-world documents. It focuses on factual accuracy and usability in health policy contexts, particularly in Ghana.
 
 For collaboration or feedback, feel free to get in touch.
-
-````
-
-```
-
-```
-````
