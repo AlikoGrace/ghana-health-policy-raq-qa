@@ -69,7 +69,7 @@ All results saved and visualized.
 
 ## Repository Structure
 
-```plaintext
+````plaintext
 ghana-health-policy-rag-qa/
 ├── ghana_rag_pipeline.ipynb             # Full pipeline: chunking, generation, evaluation
 ├── data/
@@ -83,6 +83,7 @@ ghana-health-policy-rag-qa/
 ├── requirements.txt
 └── README.md
 
+```plaintext
 
 ---
 
@@ -119,4 +120,9 @@ ghana-health-policy-rag-qa/
 This repository is part of my independent research portfolio exploring retrieval-augmented QA for real-world documents. It focuses on factual accuracy and usability in health policy contexts, particularly in Ghana.
 
 For collaboration or feedback, feel free to get in touch.
+
+````
+
+```
+
 ```
