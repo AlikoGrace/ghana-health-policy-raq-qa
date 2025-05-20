@@ -69,7 +69,7 @@ All results saved and visualized.
 
 ## Repository Structure
 
-````plaintext
+```
 ghana-health-policy-rag-qa/
 ├── ghana_rag_pipeline.ipynb             # Full pipeline: chunking, generation, evaluation
 ├── data/
@@ -83,7 +83,7 @@ ghana-health-policy-rag-qa/
 ├── requirements.txt
 └── README.md
 
-```plaintext
+```
 
 ---
 
@@ -126,3 +126,4 @@ For collaboration or feedback, feel free to get in touch.
 ```
 
 ```
+````
